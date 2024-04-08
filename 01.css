@@ -9,3 +9,14 @@ div {
 #title2 {
     color: aliceblue;
 }
+
+.text {
+    color: red;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.text2 {
+    color: green;
+    font-size: 30px;
+}
