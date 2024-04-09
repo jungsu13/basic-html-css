@@ -23,14 +23,14 @@ body {
 }
 
 
-.contents {
+.concents {
     font-size: 20px;
     text-align: center;
     line-height: 1.8;
     background-color: #ddd;
 }
 
-.contents p {
+.concents p {
     background-color: #ddd;
     padding: 20px 0;
     margin: 40px 0;
