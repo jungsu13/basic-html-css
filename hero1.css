@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #666;
+}
+
+
+.header {
+    /* background-color: yellow; */
+    border-bottom: 1px solid #ccc;
+}
+
+.nav {
+    width: 1200px;
+    height: 72px;
+    /* background-color: rebeccapurple; */
+    /* 블록요소를 중앙정렬 */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav .logo_wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: auto;
+}
+
+.nav .logo_wrap h1 {
+    font-size: 20px;
+}
+
+.nav .meun ul {
+    display: flex;
+}
+
+.nav .meun ul li {
+    margin-right: 50px;
+}
+
+
+/* .nav .button { */
+    margin-left: 50px;
+}
+
+/* hero */
+.hero {
+    margin-top: 100px;
+}
