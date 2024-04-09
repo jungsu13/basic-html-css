@@ -14,14 +14,12 @@ body {
 
 
 .header {
-    /* background-color: yellow; */
     border-bottom: 1px solid #ccc;
 }
 
 .nav {
     width: 1200px;
     height: 100px;
-    /* background-color: rebeccapurple; */
     /* 블록요소를 중앙정렬 */
     margin: 0 auto;
     display: flex;
@@ -40,12 +38,11 @@ body {
     font-size: 20px;
 }
 
-.nav .meun ul {
-    display: flex; 
+.nav .menu ul {
+    display: flex;
 }
 
-
-.nav .meun ul li {
+.nav .menu ul li {
     margin-right: 50px;
 }
 
@@ -66,7 +63,6 @@ body {
 
 .hero .contents {
     width: 1200px;
-    /* background-color: #ddd; */
     margin: 0 auto;
     display: flex;
 }
