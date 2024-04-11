@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+body {
+    color: #666;
+}
+
+.header {
+    border-bottom: 1px solid #ccc;
+}
+
+.header .nav {
+    width: 1200px;
+    margin: 0 auto;
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+
+.header .nav .logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    gap: 10px;
+}
+
+
+.header .menu {
+    display: flex;
+}
+
+
+.header .nav .menu .li {
+    margin-right: 50px;
+}
+
+
+.header .nav .bottom {
+    height: 46px;
+    width: 100px;
+    background-color: #444;
+    border: none;
+    border-radius: 46px;
+}
+
+
+.hero {
+    margin: 150px 0;
+
+}
+
+.hero .conten {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.hero .conten .top {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.hero .conten .top .texts {}
+
+.hero .conten .top .texts h3 {}
+
+.hero .conten .top .texts h2 {
+    font-size: 60px;
+    line-height: 1.6;
+}
+
+.hero .conten .top .texts p {}
+
+.hero .conten .top .texts .buttons { }
+
+.hero .conten .top .texts .buttons button {
+    height: 48px;
+    width: ;
+}
+
+.hero .conten .top .photo .img {
+    width: 560px;
+}
+
+.hero .conten .bottom {}
+
+.hero .conten .bottom  p {
+    font-size: 20px;
+    line-height: ;
+}
