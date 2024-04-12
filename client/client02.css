@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100px;
+}
+
+
+body {
+    color: #666;
+    line-height: 1.6;
+}
+
+.cont {
+    width: 1220px;
+    margin: 120px auto;
+}
+
+.title_wap {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title_wap h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.title_wap p {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.conts {
+    display: flex;
+    gap: 28px;
+}
+
+.conts li {
+    width: 388px;
+    height: 412px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 50px 40px;
+    border-radius: 24px;
+    border: 1px solid #999;    
+}
+
+.conts li .thumb {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 32px;
+}
+
+
+.conts li .thumb img {
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.conts li h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.conts li p {
+    margin-bottom: 30px;
+}
+
+.conts li .user .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.conts li .user .job {
+    font-size: 18px;
+}
