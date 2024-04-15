@@ -45,7 +45,6 @@ body {
 
 .list li {
     width: 380px;
-    background-color: #ddd;
 }
 
 .list li .photo {
@@ -81,6 +80,7 @@ body {
 .list li .so {
     display: flex;
     justify-content: center;
+    gap: 16px;
 }
 
 
