@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.thl_04 td,.thl_04 th {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.thl_05 td,.thl_05 th {
+    border: 1px solid #000000;
+    padding: 10px;
+}

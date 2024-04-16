@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+
+table {
+    width: 360px;
+    border-collapse: collapse;
+}
+
+
+h1 {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.cal {
+    font-size: 12px;
+    color: #333;
+    border-top: 3px solid #000;
+}
+
+
+.cal th, .cal td {
+    border: 1px solid #eee;
+    padding: 12px;
+}
+
+.cal th {
+    background-color: #cfdd8e;
+    color: #111;
+}
+
+.cal td {
+    text-align: right;
+    /* 손가락 */
+    cursor: pointer; 
+}
+
+/* 커서 */
+.cal td:hover {
+    background-color: #eee;
+}
+
+.cal th:last-child .cal td:last-child {
+    color: blue;
+}
+
+
+.cal th:first-child .cal td:first-child {
+    color: red;
+}
+
+.cal td.today {
+    background-color: orange;
+    color: #000;
+}
+
+
+
+
+
