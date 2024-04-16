@@ -11,6 +11,15 @@ ul {
 
 body {
     color: #444;
+}
+
+.all {
     background-color: red;
+    width: 2600px;
+    height: 3000px;
+}
+
+img {
+    width: 300px;
 }
 
