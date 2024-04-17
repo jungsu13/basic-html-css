@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+body {
+    color: #111;
+    font-family: "Noto Sans KR", sans-serif;
+    height: 1263px;
+    padding: 0 50px;
+}
+
+
+.con {}
+
+h2 {
+    font-size: 19px;
+}
+
+
+.top {}
+
+
+.mid {}
+
+
+
+
+
+
+.btns {
+    display: flex;
+}
+
+
+.but {}
+
+h3 {
+    font-size: 10px;
+}
+
+
+.but_up {
+    display: flex;
+    gap: 20px;
+}
+
+.but_do {
+    display: flex;
+}
