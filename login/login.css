@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    color: #111;
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400px;
+}
+
+
+.login_wrap {
+    width: 1000px;
+    margin: 160px auto;
+    display: flex;
+    border: 3px solid #ccc;
+}
+
+.login_wrap .login_form {
+    width: 560px;
+    padding: 80px 60px;
+}
+
+.login_form h2 {
+    font-size: 32px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+}
+
+.login_wrap form {
+    display: flex;
+    /* 새로로 정렬 */
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.login_form form {
+    margin-bottom: 20px;
+}
+
+
+.login_form form input {
+    height: 50px;
+    padding: 8px 15px;
+    border: 1px  solid #eee;
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+
+.login_form .line_text {
+    margin-bottom: 16px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    /* background-color: lightgreen; */
+    position: relative;
+
+    /* 좌표 바디기준 */
+    /* position: absolute; */
+
+    /* 좌표 첫 div */
+    /* position: relative; */
+
+    /* 고정 */
+    /* position: fixed;     */
+     
+}
+
+
+.line_text::before {
+    content: '';
+    width: 100px;
+    height: 10px;
+    background-color: #ccc;
+    position: absolute;
+    top: 8px ;
+    left: 0;
+    width: 44%;
+    height: 1px;    
+}
+
+
+.line_text::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width: 44%;
+    height: 1px;
+    background-color: #ccc;
+
+}
+
+.qr_login_btn {
+    width: 440px;
+    height: 50px;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #5f5f5f;
+    margin-bottom: 36px;
+}
+
+
+.agree {
+    margin-bottom: 25px;
+    display: flex;
+    gap: 12px;
+}
+
+
+.agree a {
+    margin-left: auto;
+}
+
+
+.btns {
+    display: flex;
+    gap: 10px;
+}
+
+
+.btns button {
+    width: 215px;
+    height: 50px;
+    background-color: #fe5454;
+    color: #fff;
+    border: 1px solid #fe5454;
+    border-radius: 4px;
+}
+
+
+.btns .outline {
+    background-color: #fff;
+    color: #fe5454;
+}
